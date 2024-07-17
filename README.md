@@ -1,7 +1,7 @@
-React To-Do List
+# React To-Do List
 This is a simple To-Do List application built with React. The application allows users to add, edit, mark as complete, and remove tasks. Tasks are saved to local storage, so they persist even after the page is refreshed.
 
-Features
+# Features
 Add new tasks
 Edit existing tasks
 Mark tasks as complete/incomplete
@@ -11,7 +11,7 @@ Getting Started
 Prerequisites
 Make sure you have Node.js and npm (or Yarn) installed on your machine.
 
-Installation
+# Installation
 Clone the repository:
 
 bash
@@ -45,30 +45,6 @@ npm run server
 yarn server
 This will start the JSON Server on http://localhost:5000.
 
-Project Structure
-css
-Копировать код
-my-app/
-├── node_modules/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── index.css
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── TodoForm.js
-│   │   ├── TodoItem.js
-│   │   ├── TodoList.js
-│   │   └── Header.js
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   └── ...
-├── db.json
-├── .gitignore
-├── package.json
-└── README.md
-Usage
+# Usage
 Add a Task: Enter a task in the input field and click "Add".
 Edit a Task: Click
